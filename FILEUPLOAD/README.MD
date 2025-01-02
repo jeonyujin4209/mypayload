@@ -4,5 +4,5 @@
 #!/bin/bash  
 rm -rf /important/data  
 #{  
-#  "key": "authentication code"  
+#"key": "authentication code"  
 #}  
