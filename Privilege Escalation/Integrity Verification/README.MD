@@ -1,5 +1,4 @@
-# Integrity Verification
-
+# Integrity Verification  
 관리자 페이지 내 편의성을 위한 한꺼번에 등록하거나
 특정 설정을 백업/복구하는 기능이 있을 경우
 해당 파일을 변조하여 서버 내 데이터 탈취 혹은 RCE 공격이 가능  
