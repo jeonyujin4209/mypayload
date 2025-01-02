@@ -37,4 +37,4 @@ RUNTIME 함수에서 쉘 명시하지 않을 시
 악의적인 명령어 옵션을 주입하여 공격 가능  
 공격자의 입력 값 && echo world
 Runtime.getRuntime().exec("echo Hello && echo World");  
-그러나 악의적인 옵션은 주입 가능 ping -c 10 -s 1024 IP  
+그러나 악의적인 옵션은 주입 가능 ping -c 9999 -s 65507 IP  //DOS 공격  
