@@ -18,9 +18,9 @@ powershell을 이용하거나 System Infomer 와 같은 툴을 이용해서 덤�
 
 이에 대한 힌트를 얻기 위해서는 콜스택 추적이 가장 효과가 좋았다.
 
-만약에 특정 감지로직이 되면 윈도우 창이 비활성화되는 프로그램이 있다 치면
+만약에 특정 감지로직이 되면 윈도우 창이 비활성화되는 프로그램이 있다 치자
 
-콜스택에서 SetWindowDisplayAffinity,  SetLayeredWindowAttributes, NtUserShowWindow, BitBlt 등의 함수가 표기된다.
+감지 매커니즘 작동 시 콜스택에서 SetWindowDisplayAffinity,  SetLayeredWindowAttributes, NtUserShowWindow, BitBlt 등의 함수가 표기된다.
 
 
 
