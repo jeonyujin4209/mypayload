@@ -35,6 +35,8 @@ root일 경우만 덮어씌울수있음.
 RUNTIME 함수에서 쉘 명시하지 않을 시     
 다중 명령어를 지원하지 않아도  
 악의적인 명령어 옵션을 주입하여 공격 가능  
-공격자의 입력 값 && echo world
+공격자의 입력 값 && echo world  
 Runtime.getRuntime().exec("echo Hello && echo World");  
-그러나 악의적인 옵션은 주입 가능 ping -c 9999 -s 65507 IP  //DOS 공격  
+그러나 악의적인 옵션은 주입 가능  
+ping의 명령어가 있을때 입력 값 -c 9999 -s 65507 IP 시 DoS 공격 가능  
+ping -c 9999 -s 65507 IP    
