@@ -6,3 +6,7 @@ rm -rf /important/data
 #{  
 #"key": "authentication code"  
 #}  
+
+
+확장자가 블랙리스트 방식으로 허용될 경우  
+.cmd , .ps1 등의 확장자로 우회하여 악성 파일 배포 가능  
