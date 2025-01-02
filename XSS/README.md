@@ -1,4 +1,4 @@
-# xss 페이로드
+# XSS 페이로드
 "><svg/onwheel=alert'1'> 
 
 
