@@ -24,3 +24,6 @@ powershell을 이용하거나 System Infomer 와 같은 툴을 이용해서 덤�
 
 
 
+------------------
+WPF로 개발된 애플리케이션 .NET Framework 또는 .NET Core 기반의 WPF 응용 프로그램일 경우  
+snoop 툴로 진행하면 훨씬더 쉽다.  
