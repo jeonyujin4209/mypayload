@@ -43,6 +43,9 @@ $toInclusive=   effectiveEndDate le $toInclusive 와 유사. 마지막 날짜 �
 $top=   최대 몇 건까지 가져올지 제한 (LIMIT 역할)
 
 
+
+## 실제 나왔던 것
+
 $filter=name+eq+test 일때
 $filter=name+ne+test으로 자신 제외 전체 조회 가능.
 
