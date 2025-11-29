@@ -4,5 +4,4 @@
 실제 뚫렸던거만 적기
 
 # OSINT
-
-[FO](https://fofa.so/)
+https://fofa.so/
