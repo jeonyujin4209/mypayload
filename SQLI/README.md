@@ -28,5 +28,6 @@ DECODE(INSTR(USER,CHR({ascii_code}),{pos},1),{pos},TRUE값,FALSE값)
 
 ## type juggling
  SELECT * FROM testdata WHERE id = 1\G; => None
+ 
  SELECT * FROM testdata WHERE id = 0\G; => 문자열 타입이 정수로는 0이므로 다나옴.
  따라서 json 파라미터에 false나 0 삽입 시 bypass 가능
