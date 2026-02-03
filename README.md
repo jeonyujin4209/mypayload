@@ -16,3 +16,8 @@ X-Real-IP	nginx 리버스 프록시 환경 (관례적으로 사용)
 WL-Proxy-Client-IP	Oracle WebLogic (WebLogic Connector 사용 시)
 
 Proxy-Client-IP	Oracle WebLogic (WebLogic Connector 사용 시)
+
+
+# saleforce
+
+https://www.varonis.com/blog/misconfigured-salesforce-experiences
