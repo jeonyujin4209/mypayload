@@ -23,4 +23,6 @@ Proxy-Client-IP	Oracle WebLogic (WebLogic Connector 사용 시)
 https://www.varonis.com/blog/misconfigured-salesforce-experiences
 
 
-# 윈도우10 이상 복구모드에서 cmd 활성화 후 고정키를 cmd로 변경하여 비 로그인으로 권한 획득 가능
+# 고정키 cmd로 변경
+
+윈도우10 이상 복구모드에서 cmd 활성화 후 고정키를 cmd로 변경하여 비 로그인으로 권한 획득 가능
